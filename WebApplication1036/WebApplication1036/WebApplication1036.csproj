@@ -67,14 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Images-Week-3\average2numbers.jpg" />
     <Content Include="Images-Week-3\bird.png" />
+    <Content Include="Images-Week-3\bodymassindex.jpg" />
     <Content Include="Images-Week-3\cat.png" />
     <Content Include="Images-Week-3\dog.png" />
     <Content Include="Images-Week-3\fish.png" />
     <Content Include="Images-Week-3\lizard.png" />
     <Content Include="Images-Week-3\pet.png" />
     <Content Include="Images-Week-3\rabbit.png" />
+    <Content Include="Images-Week-3\sam-online-banner.jpg" />
+    <Content Include="Styles\StyleSheet1.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm1036.aspx" />
     <Content Include="WebForm2036.aspx" />
@@ -82,12 +87,30 @@
     <Content Include="WebForm4036.aspx" />
     <Content Include="WebForm5036.aspx" />
     <Content Include="WebForm6a036.aspx" />
+    <Content Include="WebForm6b036.aspx" />
+    <Content Include="WebFormBird.aspx" />
+    <Content Include="WebFormDog.aspx" />
+    <Content Include="WebFormRabbit.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1036.aspx.cs">
       <DependentUpon>WebForm1036.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -130,9 +153,38 @@
     <Compile Include="WebForm6a036.aspx.designer.cs">
       <DependentUpon>WebForm6a036.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm6b036.aspx.cs">
+      <DependentUpon>WebForm6b036.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6b036.aspx.designer.cs">
+      <DependentUpon>WebForm6b036.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormBird.aspx.cs">
+      <DependentUpon>WebFormBird.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormBird.aspx.designer.cs">
+      <DependentUpon>WebFormBird.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormDog.aspx.cs">
+      <DependentUpon>WebFormDog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormDog.aspx.designer.cs">
+      <DependentUpon>WebFormDog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormRabbit.aspx.cs">
+      <DependentUpon>WebFormRabbit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormRabbit.aspx.designer.cs">
+      <DependentUpon>WebFormRabbit.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

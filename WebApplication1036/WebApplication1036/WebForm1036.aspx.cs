@@ -11,22 +11,19 @@ namespace WebApplication1036
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
-        protected void btnMalaysia_Click(object sender, EventArgs e)
-        {
-            Label1.Text = "Hello Malaysia!";
+        protected void btnMalaysia_Click(object sender, EventArgs e) {
+            lblMessage1_alt.Text = "Hello Malaysia!";
         }
 
-        protected void btnUniKL_Click(object sender, EventArgs e)
-        {
-            Label1.Text = "Hello UniKL!";
+        protected void btnUniKL_Click(object sender, EventArgs e) {
+            lblMessage1_alt.Text = "Hello UniKL!";
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            Label2.Text = "Hello " + TextBox1.Text + "!";
+        protected void btnSomeone_Click(object sender, EventArgs e) {
+            lblMessage2_alt.Text = "Hello " + txtMessage2_alt.Text;
         }
     }
 }

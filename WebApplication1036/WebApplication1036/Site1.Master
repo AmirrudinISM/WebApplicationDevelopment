@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1036.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server" class="fontForm">
+        <img src="Images-Week-3/sam-online-banner.jpg" class="banner" />
+        <div class="header">
+            <a href="Default.aspx">Home</a> &nbsp;|&nbsp; 
+            <a href="https://www.unikl.edu.my" target="_blank">UniKL</a>  &nbsp;|&nbsp;
+            <a href="https://portal.unikl.edu.my" target="_blank">UniKL Portal</a> &nbsp; | &nbsp;
+            <a href="https://login.microsoftonline.com" target="_blank">Microsoft Online</a>
+
+        </div>
+        <div class="leftMenuColumn">
+            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="leftMenuLink" NavigateUrl="~/WebFormBird.aspx">Bird Page</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="leftMenuLink" NavigateUrl="~/WebFormDog.aspx">Dog Page</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink3" runat="server" CssClass="leftMenuLink" NavigateUrl="~/WebFormRabbit.aspx">Rabbit Page</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="leftMenuLink" NavigateUrl="~/WebForm1036.aspx">Hello Page</asp:HyperLink>
+            <br />
+            <asp:HyperLink ID="HyperLink5" runat="server" CssClass="leftMenuLink" NavigateUrl="~/WebForm2036.aspx">Temperature Converter</asp:HyperLink>
+
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

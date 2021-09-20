@@ -7,74 +7,63 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplication1036
-{
+namespace WebApplication1036 {
 
 
-    public partial class WebForm1036
-    {
+    public partial class WebForm1036 {
 
         /// <summary>
-        /// form1 control.
+        /// lblMessage1_alt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Label lblMessage1_alt;
 
         /// <summary>
-        /// Label1 control.
+        /// btnMalaysia_alt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Button btnMalaysia_alt;
 
         /// <summary>
-        /// btnMalaysia control.
+        /// btnUniKL_alt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMalaysia;
+        protected global::System.Web.UI.WebControls.Button btnUniKL_alt;
 
         /// <summary>
-        /// btnUniKL control.
+        /// lblMessage2_alt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUniKL;
+        protected global::System.Web.UI.WebControls.Label lblMessage2_alt;
 
         /// <summary>
-        /// Label2 control.
+        /// txtMessage2_alt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.TextBox txtMessage2_alt;
 
         /// <summary>
-        /// TextBox1 control.
+        /// btnSomeone control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnSomeone;
     }
 }

@@ -31,6 +31,15 @@ namespace WebApplication1036 {
         protected global::System.Web.UI.WebControls.TextBox txtName;
 
         /// <summary>
+        /// reqfvName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqfvName;
+
+        /// <summary>
         /// txtTest control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,24 @@ namespace WebApplication1036 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTest;
+
+        /// <summary>
+        /// rangevTest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rangevTest;
+
+        /// <summary>
+        /// requiredfvTest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfvTest;
 
         /// <summary>
         /// txtAssignment control.
@@ -49,6 +76,24 @@ namespace WebApplication1036 {
         protected global::System.Web.UI.WebControls.TextBox txtAssignment;
 
         /// <summary>
+        /// rangevAssignment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rangevAssignment;
+
+        /// <summary>
+        /// requiredfvAssignment control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfvAssignment;
+
+        /// <summary>
         /// txtProject control.
         /// </summary>
         /// <remarks>
@@ -58,6 +103,24 @@ namespace WebApplication1036 {
         protected global::System.Web.UI.WebControls.TextBox txtProject;
 
         /// <summary>
+        /// rangevProject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rangevProject;
+
+        /// <summary>
+        /// requiredfvProject control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfvProject;
+
+        /// <summary>
         /// txtFinalExam control.
         /// </summary>
         /// <remarks>
@@ -65,6 +128,24 @@ namespace WebApplication1036 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtFinalExam;
+
+        /// <summary>
+        /// rangevFinalExam control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RangeValidator rangevFinalExam;
+
+        /// <summary>
+        /// requiredfvFinalExam control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator requiredfvFinalExam;
 
         /// <summary>
         /// btnCalculate control.
@@ -92,5 +173,14 @@ namespace WebApplication1036 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblGrade;
+
+        /// <summary>
+        /// ValidationSummary1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
     }
 }
