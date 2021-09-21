@@ -1,14 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm5036.aspx.cs" Inherits="WebApplication1036.WebForm5036" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <h3>List Box, Drop-down List, and Images</h3>
+﻿<%@ Page Title="Favourite Pet Page" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm5036.aspx.cs" Inherits="WebApplication1036.WebForm5036" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h3>List Box, Drop-down List, and Images</h3>
         <p>What is your favourite pet?</p>
         <p><asp:ListBox ID="lstPet" runat="server" Height="105px" Width="100px" AutoPostBack="True" OnSelectedIndexChanged="lstPet_SelectedIndexChanged">
             <asp:ListItem>Bird</asp:ListItem>
@@ -26,6 +20,4 @@
             <asp:ListItem Value="200">Large</asp:ListItem>
             <asp:ListItem Value="250">Extra Large</asp:ListItem>
         </asp:DropDownList></p>
-    </form>
-</body>
-</html>
+</asp:Content>

@@ -1,10 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm6a036.aspx.cs" Inherits="WebApplication1036.WebForm6036a" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+﻿<%@ Page Title="Registration Page" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm6a036.aspx.cs" Inherits="WebApplication1036.WebForm6036a" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Styles/StyleSheet1.css" rel="stylesheet" />
     <style type="text/css">
         .auto-style1 {
@@ -25,10 +20,9 @@
             height: 26px;
         }
     </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div>
             <p>UniKL Fitness Club Registration</p>
         </div>
         <table style="width:100%;">
@@ -143,10 +137,6 @@
     </p>
     
         <asp:ValidationSummary ID="ValidationSummary1" runat="server" HeaderText="Validation Summary" />
-    </form>
-        
     <p class="validationErrorRed">
     </p>
-        
-</body>
-</html>
+</asp:Content>

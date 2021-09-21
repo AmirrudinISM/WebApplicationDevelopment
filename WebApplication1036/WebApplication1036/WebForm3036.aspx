@@ -1,14 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm3036.aspx.cs" Inherits="WebApplication1036.WebForm3036" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <p>Name:<asp:TextBox ID="txtName" runat="server"></asp:TextBox> 
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm3036.aspx.cs" Inherits="WebApplication1036.WebForm30361" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <p>Name:<asp:TextBox ID="txtName" runat="server"></asp:TextBox> 
             <asp:RequiredFieldValidator ID="reqfvName" runat="server" ControlToValidate="txtName" Display="Dynamic" ErrorMessage="Please enter name"></asp:RequiredFieldValidator>
         </p>
         <p>Test (/25):<asp:TextBox ID="txtTest" runat="server"></asp:TextBox> 
@@ -32,6 +26,4 @@
         
         <p>Grade:<asp:Label ID="lblGrade" runat="server" Text=""></asp:Label></p>
         <asp:ValidationSummary ID="ValidationSummary1" runat="server" HeaderText="Validation Summary" />
-    </form>
-</body>
-</html>
+</asp:Content>

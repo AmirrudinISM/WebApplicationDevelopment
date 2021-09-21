@@ -1,14 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm4036.aspx.cs" Inherits="WebApplication1036.WebForm4036" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <h3>Radio Button List</h3>
+﻿<%@ Page Title="Multiple Choice Page" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm4036.aspx.cs" Inherits="WebApplication1036.WebForm4036" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h3>Radio Button List</h3>
         <p>Which one of these is a server-side programming language?</p>
         <asp:RadioButtonList ID="rblQuestion" runat="server" AutoPostBack="True" OnSelectedIndexChanged="rblQuestion_SelectedIndexChanged">
             <asp:ListItem Value="A">JavaScript</asp:ListItem>
@@ -21,7 +15,7 @@
         <p>Selected Index:<asp:Label ID="lblSelectedIndex" runat="server" Text="..."></asp:Label></p>
         <p>Selected Item:<asp:Label ID="lblSelectedItem" runat="server" Text="..."></asp:Label></p>
         <p>Selected Value:<asp:Label ID="lblSelectedValue" runat="server" Text="..."></asp:Label></p>
-        
-    </form>
-</body>
-</html>
+</asp:Content>
+
+
+

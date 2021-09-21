@@ -1,10 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm6b036.aspx.cs" Inherits="WebApplication1036.WebForm6b036" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm6b036.aspx.cs" Inherits="WebApplication1036.WebForm6b036" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         .auto-style1 {
             width: 250px;
@@ -24,10 +19,9 @@
             height: 26px;
         }
     </style>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div>
             <p>UniKL Fitness Club Registration</p>
         </div>
         <table style="width:100%;">
@@ -95,8 +89,4 @@
                 
             </tr>
             </table>
-    
-    </form>
-        
-</body>
-</html>
+</asp:Content>

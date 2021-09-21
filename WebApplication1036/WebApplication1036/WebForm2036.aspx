@@ -1,4 +1,4 @@
-﻿<%@ Page Title="036" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm2036.aspx.cs" Inherits="WebApplication1036.WebForm2036" %>
+﻿<%@ Page Title="Temperature Page" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="WebForm2036.aspx.cs" Inherits="WebApplication1036.WebForm2036" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
         label {

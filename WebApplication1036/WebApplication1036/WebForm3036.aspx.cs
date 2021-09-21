@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace WebApplication1036 {
-    public partial class WebForm3036 : System.Web.UI.Page {
+    public partial class WebForm30361 : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
@@ -36,7 +36,7 @@ namespace WebApplication1036 {
             if (overallMarkRounded >= 80 && overallMarkRounded <= 100) {
                 grade = "A";
             }
-            else if(overallMarkRounded >= 75 && overallMarkRounded < 80) {
+            else if (overallMarkRounded >= 75 && overallMarkRounded < 80) {
                 grade = "A-";
             }
             else if (overallMarkRounded >= 70 && overallMarkRounded < 75) {
